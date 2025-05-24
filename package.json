@@ -1,0 +1,27 @@
+{
+  "name": "spedorio-website",
+  "version": "1.0.0",
+  "description": "Spedorio Website with Flask Backend",
+  "main": "backend/app.py",
+  "engines": {
+    "node": ">=14.x",
+    "python": "3.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdipayandutta/spedorio-website.git"
+  },
+  "author": "Dipayan Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DipayanDutta - Spedorio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <!-- Scroll Indicator Dots -->
+    <div class="scroll-indicator">
+        <div class="scroll-dot" data-tooltip="Home"></div>
+        <div class="scroll-dot" data-tooltip="About"></div>
+        <div class="scroll-dot" data-tooltip="Projects"></div>
+        <div class="scroll-dot" data-tooltip="Contact"></div>
+    </div>
+
+    <!-- Scroll Arrows -->
+    <div class="scroll-arrows">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-arrow"></div>
+        <div class="scroll-arrow"></div>
+    </div>
+
+    <div class="neural-network"></div>
+    <div class="data-flow">
+        <div class="data-line"></div>
+        <div class="data-line"></div>
+        <div class="data-line"></div>
+        <div class="data-line"></div>
+    </div>
+    <div class="ai-nodes">
+        <div class="ai-node"></div>
+        <div class="ai-node"></div>
+        <div class="ai-node"></div>
+        <div class="ai-node"></div>
+    </div>
+    <div class="tech-elements">
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M7 5h10v2h2V3c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v4h2V5zm10 14H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path>
+                <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M15 2h-3.5l-1 1H5v2h14V3h-3l-1-1zM16 9c-.7 0-1.4.1-2 .3V7h-4v2.3c-.6-.2-1.3-.3-2-.3-3.9 0-7 3.1-7 7s3.1 7 7 7c1.9 0 3.7-.8 4.9-2.1 1.3 1.3 3 2.1 4.9 2.1 3.9 0 7-3.1 7-7s-3.1-7-7-7zm-8 12c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5zm8 0c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z"></path>
+            </svg>
+        </div>
+        <div class="tech-element">
+            <svg viewBox="0 0 24 24">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1.6 14.2h-1.3v-1.4h1.3v1.4zm-3.5 0h-1.3v-1.4h1.3v1.4zm-3.5 0H9.1v-1.4h1.3v1.4zm9.1-3.8H4.5V5.5h15v7.9z"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    
+    <nav>
+        <div class="logo-small" id="openSidebar">
+            <img src="assets\PicsArt_10-07-11.10.16.png" alt="Dipayan Logo" class="nav-logo">
+        </div>
+
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">
+                <img src="assets\PicsArt_10-07-11.10.16.png" alt="Dipayan Logo" class="sidebar-logo-img">
+            </div>
+            <button class="close-sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-content">
+            <div class="sidebar-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-user"></i>
+                                About
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-code-branch"></i>
+                                Projects
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-envelope"></i>
+                                Contact
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-section" style="display: none;">
+                <h3>Blog Categories</h3>
+                <ul>
+                    <li>
+                        <a href="#" class="active">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-code"></i>
+                                Web Development
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-paint-brush"></i>
+                                UI/UX Design
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="category-indicator"></div>
+                            <div class="link-content">
+                                <i class="fas fa-lightbulb"></i>
+                                Innovation
+                            </div>
+                            <i class="fas fa-chevron-right nav-arrow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-controls">
+                <button class="nav-button" id="prevCategory">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-button" id="nextCategory">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="sidebar-section">
+                <h3>Connect</h3>
+                <div class="sidebar-social">
+                    <a href="https://www.linkedin.com/in/iamdipayandutta/" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/iamdipayandutta" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@spedorio" target="_blank" class="social-btn">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1>Hello, It's Me</h1>
+                    <div class="name-container">
+                        <div class="name">DIPAYAN</div>
+                        <div class="surname">DUTTA</div>
+                    </div>
+                    <p class="subtitle">Full-Stack & Python Developer</br>Generative AI & Gaming Enthusiast</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/iamdipayandutta/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/iamdipayandutta" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@spedorio" target="_blank" class="social-btn"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-logo-container">
+                        <div class="circle-inner"></div>
+                        <div class="circle-outer"></div>
+                        
+                        <!-- Orbit containers -->
+                        <div class="orbit-container">
+                            <div class="orbit">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div class="orbit-container">
+                            <div class="orbit">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div class="orbit-container">
+                            <div class="orbit">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        
+                        <img src="assets\PicsArt_10-07-11.10.16.png" alt="Logo" class="hero-logo">
+                    </div>
+                </div>
+            </div>
+            <div class="section-indicator">
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-content highlight-box">
+                <div class="section-icon">
+                    <img src="assets/1738567230046.jpg" alt="Dipayan Dutta" class="about-avatar">
+                </div>
+                <h2>About Me</h2>
+                <p>Tech-obsessed <span class="domain-highlight" data-tooltip="Building complete web applications from frontend to backend">Full-Stack Developer</span> with a knack for blending code, 
+                    creativity and cutting-edge tech. Whether I'm architect scalable backends with 
+                    <span class="domain-highlight" data-tooltip="Server-side technologies for robust backend systems">Django/Node.js</span>, crafting dynamic UIs with 
+                    <span class="domain-highlight" data-tooltip="Modern JavaScript library for building user interfaces">React</span>. I love reverse-engineering any models and 
+                    thrive on turning complex ideas into clean, efficient way as possible.
+                </p>
+                <a href="https://www.linkedin.com/in/iamdipayandutta/" target="_blank" class="cta-button">Hire me <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="section-indicator">
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h2>My Projects</h2>
+                <p class="section-subtitle">Showcasing my latest work and innovations</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets\Picsart_25-03-25_01-46-55-597.jpg" alt="ViewSpeedFlow">
+                    </div>
+                    <div class="project-content">
+                        <h3>ViewSpeedFlow</h3>
+                        <p>ViewSpeedFlow: All-in-one Windows network monitoring solution. Track real-time bandwidth, perform speed tests, generate reports, and access system information through a clean interface. Perfect for both professionals and home users seeking reliable network performance insights without complexity.</p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/iamdipayandutta/ViewSpeedFlow" target="_blank" class="project-btn github">
+                                <i class="fab fa-github"></i> Access Open Source Module</br>(Coming Soon)
+                            </a>
+                            <a href="assets/ViewSpeedFlow.exe" download class="project-btn demo">
+                                <i class="fas fa-download"></i> Download Now
+                            </a>
+                            <button class="project-btn know-more" onclick="toggleProjectDetails()">
+                                <i class="fas fa-info-circle"></i> Know More
+                            </button>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="details-content">
+                                <h4>About ViewSpeedFlow</h4>
+                                <p>ViewSpeedFlow is a real-time network monitoring tool for Windows, designed to track your download and upload speeds, run speed tests, and display system specifications in a simple and efficient way. This is an early access version, so expect UI improvements and new features in upcoming updates!</p>
+                                
+                                <div class="preview-gallery">
+                                    <div class="preview-screenshot" onclick="expandImage(this)">
+                                        <img src="assets/Picsart_25-03-25_13-30-59-830.jpg" alt="ViewSpeedFlow System Specifications" style="object-fit: contain;">
+                                    </div>
+                                    <div class="preview-screenshot" onclick="expandImage(this)">
+                                        <img src="assets/Picsart_25-03-25_13-38-59-719.jpg" alt="ViewSpeedFlow Network Monitor" style="object-fit: contain;">
+                                    </div>
+                                </div>
+
+                                <div id="imageModal" class="image-modal">
+                                    <span class="close-modal-btn">&times;</span>
+                                    <img class="modal-content" id="expandedImage">
+                                </div>
+
+                                <h4>Current Features:</h4>
+                                <ul>
+                                    <li>Real-Time Network Speed Monitoring – View current download and upload speeds in the taskbar tooltip.</li>
+                                    <li>Speed Test Functionality – Run a speed test to measure your actual download and upload speeds with a graphical representation of the results.</li>
+                                    <li>Network Topology Detection – Displays whether you're using Ethernet or Wi-Fi for a better understanding of your connection.</li>
+                                    <li>System Specifications Overview – Get detailed system specs, including processor details, RAM, disk space, Python version, and OS info.</li>
+                                    <li>Crucial Network Details – View active connections, public IP, hostname, and OS (with an option to hide sensitive details).</li>
+                                    <li>Light & Dark Mode Support – Switch between dark mode for a sleek look and light mode for better visibility.</li>
+                                    <li>Export Results – Save your speed test results as a PDF for easy reference.</li>
+                                </ul>
+
+                                <h4>Upcoming Improvements:</h4>
+                                <ul>
+                                    <li>(soon) Complete UI Overhaul – A more modern and polished look is in development.</li>
+                                    <li>(soon) New Features & Enhancements – Expect better customization options, additional network diagnostics, and more...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-indicator">
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-content highlight-box">
+                <div class="section-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h2>Get in Touch</h2>
+                
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/sp3dorio@gmail.com" method="POST">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            
+                            <input type="hidden" name="_subject" value="New message from portfolio website!">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://iamdipayandutta.github.io/thanks.html">
+                            
+                            <button type="submit" class="contact-btn">Contact Me</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Contact</h3>
+                        <p>sp3dorio@gmail.com</p>
+                        
+                        <h3>Based in</h3>
+                        <p>Kolkata, India</p>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/iamdipayandutta" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+                            <a href="https://www.youtube.com/@spedorio" target="_blank" class="social-btn"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/in/iamdipayandutta/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-indicator">
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+                <div class="indicator-line"></div>
+            </div>
+        </section>
+
+        <section id="music-zone" class="section">
+            <div class="section-header">
+                <i class="fas fa-music"></i>
+                <h2>Music Zone</h2>
+                <p class="section-subtitle">Connect with Spotify to discover and play music</p>
+            </div>
+
+            <div class="music-container">
+                <!-- Now Playing Section -->
+                <div class="now-playing">
+                    <div class="player-card">
+                        <div class="album-art">
+                            <img src="/assets/default-playlist.png" alt="Album Art">
+                            <div class="player-overlay">
+                                <div class="player-controls">
+                                    <button class="prev-btn">⏮️</button>
+                                    <button class="play-pause-btn">▶️</button>
+                                    <button class="next-btn">⏭️</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="track-info">
+                            <h4>Not Playing</h4>
+                            <p>Connect to Spotify to start listening</p>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="time-info">
+                                <span class="current-time">0:00</span>
+                                <span class="total-time">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Playlists Section -->
+                <div class="playlists-section">
+                    <h3>My Playlists</h3>
+                    <div class="playlists-container">
+                        <div class="playlists-grid">
+                            <!-- Playlists will be dynamically added here -->
+                        </div>
+                        <button class="show-more-btn">Show More Playlists</button>
+                    </div>
+                </div>
+
+                <!-- Top Tracks Section -->
+                <div class="top-tracks-section">
+                    <h3>Top Tracks</h3>
+                    <div class="tracks-list">
+                        <!-- Top tracks will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spotify Login -->
+            <div class="spotify-login">
+                <h3>Connect with Spotify</h3>
+                <p>Log in to access your music library and control playback</p>
+                <button class="spotify-auth-btn">
+                    <i class="fab fa-spotify"></i>
+                    Connect with Spotify
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>My Goal ?</br> To create <span class="highlight"> tools and experiences 
+            </span></p>
+            <p>that make life <span class="highlight">simpler , smarter , pixel</span> and more fun.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="scripts/spotify.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html> 
